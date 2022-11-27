@@ -6,8 +6,8 @@ enum ConfigKeys {
   BASE_URL = 'baseURL',
   DRY_RUN = 'dryRun',
   FORCE_SENDING = 'forceSending',
-  LAST_TOOT_DATE = 'lastTootDate',
   LAST_PROGRESS = 'lastProgress',
+  LAST_TOOT_DATE = 'lastTootDate',
 }
 
 export type CmdConfig = Partial<Record<ConfigKeys, string | boolean>> & {configFile?: string};
@@ -39,7 +39,7 @@ export class YearProgressClient {
     const numChars = 15;
     const numFilled = Math.round((percentage / 100) * numChars);
     const numEmpty = numChars - numFilled;
-    return `${'▓'.repeat(numFilled)}${'░'.repeat(numEmpty)}`
+    return `${'▓'.repeat(numFilled)}${'░'.repeat(numEmpty)}`;
   }
 
   private calculatePercentage(date: string): number {
