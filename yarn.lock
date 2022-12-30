@@ -1014,10 +1014,10 @@ asynckit@^0.4.0:
   resolved "https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
-axios@1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.2.1.tgz#44cf04a3c9f0c2252ebd85975361c026cb9f864a"
-  integrity sha512-I88cFiGu9ryt/tfVEi4kX2SITsvDddTajXTOFmt2uK1ZVA8LytjtdeyefdQWEf5PU8w+4SSJDoYnggflB5tW4A==
+axios@1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.2.2.tgz#72681724c6e6a43a9fea860fc558127dbe32f9f1"
+  integrity sha512-bz/J4gS2S3I7mpN/YZfGFTqhXTYzRho8Ay38w2otuuDR322KzFIWm/4W2K6gIwvWaws5n+mnb7D1lN9uD+QH6Q==
   dependencies:
     follow-redirects "^1.15.0"
     form-data "^4.0.0"
@@ -3125,14 +3125,14 @@ marked@^4.0.10:
   resolved "https://registry.npmjs.org/marked/-/marked-4.0.10.tgz#423e295385cc0c3a70fa495e0df68b007b879423"
   integrity sha512-+QvuFj0nGgO970fySghXGmuw+Fd0gD2x3+MqCWLIPf5oxdv1Ka6b2q+z9RP01P/IaKPMEramy+7cNy/Lw8c3hw==
 
-megalodon@5.0.3:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/megalodon/-/megalodon-5.0.3.tgz#a51ea10d5e54dd4f7f38a1ba62a508d9fb960c1a"
-  integrity sha512-7ZPoDLmLj78FdlQVy5YwWd320Be9jQ3IoLHyYJNP2ttS9O3mof3sZ0rW1+GCXv9Qev4AN66A7xHYxY26H8EiXQ==
+megalodon@5.0.5:
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/megalodon/-/megalodon-5.0.5.tgz#1623bbeb4fee96b4f297545b347ad010ea98c833"
+  integrity sha512-8pQf9N1k7g41b83k+EIyhpV8Vr2sipcWsaIvtujBYKFyOCmkplGJCm+54e9Us0b5A4Q9pPue3wGtQuYwBOYpFg==
   dependencies:
     "@types/oauth" "^0.9.0"
     "@types/ws" "^8.2.3"
-    axios "1.2.1"
+    axios "1.2.2"
     dayjs "^1.11.7"
     form-data "^4.0.0"
     https-proxy-agent "^5.0.1"
