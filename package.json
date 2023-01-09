@@ -4,7 +4,7 @@
     "yearprogress": "dist/cli.js"
   },
   "dependencies": {
-    "commander": "9.4.1",
+    "commander": "9.5.0",
     "megalodon": "5.0.6"
   },
   "description": "Toots year's progress every few days to Mastodon.",
